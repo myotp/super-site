@@ -1,5 +1,8 @@
 defmodule SuperSiteWeb.LightLive do
-  use SuperSiteWeb, :live_view
+  # 不调用默认的layout
+  # https://elixirforum.com/t/liveview-socket-put-root-layout-overwrite-root-layout/48878/2
+  # 以及更现代Phoenix 1.7的写法
+  use Phoenix.LiveView, layout: false
 
   def mount(params, session, socket) do
     IO.inspect({params, session})
