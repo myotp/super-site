@@ -14,7 +14,7 @@ http://localhost:4000/
 cd ~/dev/super-site
 git init
 git add .
-git commit -m "first commit"
+git commit -m "模版生成Phoenix 1.7.10项目"
 git branch -M master
 git remote add origin git@github.com:myotp/super-site.git
 git push -u origin master
