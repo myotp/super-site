@@ -1,5 +1,9 @@
 # SuperSite
 
+```shell
+mix phx.new super-site --app super_site --adapter bandit --no-gettext --no-mailer
+```
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
